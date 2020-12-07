@@ -45,7 +45,9 @@ To install packages, we need to connect the server to the internet.
 ## CUDA commands
 Check the availability of GPU devices
 >$nvidia-smi  
+
 or  
+
 >$watch -n.5 nvidia-smi
 
 Note: the second command tells the console to run `nvidia-smi` every 0.5 second, i.e. refreshing the GPU status in real-time. Press `Ctrl+C` to stop.
