@@ -33,8 +33,23 @@ Installation:
   1. Download https://www.jetbrains.com/pycharm/download/#section=mac
   2. Or install [jetbrain toolbox](https://www.jetbrains.com/toolbox-app/) and install/manage pycharm via toolbox
   
+## Configuration
+GO to preference  
 ![preference](https://github.com/dzwallkilled/tricks/blob/master/remote_debug_imgs/preferences.jpg)
   
+Select the project interpreter, and select add:  
+![interpreter](https://github.com/dzwallkilled/tricks/blob/master/remote_debug_imgs/project_interpreter.jpg)
+
+
+Select adding SSH interpreter, and input the server IP address and password,  
+![add1](https://github.com/dzwallkilled/tricks/blob/master/remote_debug_imgs/add1.jpg)
+
+If account and password are valid, select the python execute file (bin file), e.g. the bin file in conda environment.  
+![add2](https://github.com/dzwallkilled/tricks/blob/master/remote_debug_imgs/add2.jpg)
+
+
+
+
 # Some tricks
 To install packages, we need to connect the server to the internet.  
 >$bash border.sh open  
