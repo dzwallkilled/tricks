@@ -33,7 +33,7 @@ Installation:
   1. Download https://www.jetbrains.com/pycharm/download/#section=mac
   2. Or install [jetbrain toolbox](https://www.jetbrains.com/toolbox-app/) and install/manage pycharm via toolbox
   
-
+![preference](https://github.com/dzwallkilled/tricks/blob/master/remote_debug_imgs/preferences.jpg)
   
 # Some tricks
 To install packages, we need to connect the server to the internet.  
