@@ -39,7 +39,7 @@ Installation:
 To install packages, we need to connect the server to the internet.  
 >$bash border.sh open  
 >$(your usrname, e.g. zd027)  
->$(your password) 
+>$(your password)  
 >$Autheration success!  
   
 ## CUDA commands
