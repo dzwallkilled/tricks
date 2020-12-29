@@ -84,6 +84,11 @@ or
 
 Note: the second command tells the console to run `nvidia-smi` every 0.5 second, i.e. refreshing the GPU status in real-time. Press `Ctrl+C` to stop.
 
+To run a python script, users could use the following command to allocate specific cuda devices for running.  
+>$CUDA_VISIBLE_DEVICES=1 python train.py  
+
+where '1' is the GPU device id, starting from 0 (usually). When running script with the command, the script 'train.py' could only see one GPU (id=1), which is treated as device:0 in the python script.
+
 ## Remotely running a job
 Running a job may take several days, and running a job via the SSH session on PyCharm IDE is risky since it requires the remote connection to be stable during the whole period. Also, you need to keep you PyCharm and PC running all the time. Hence, it is impossible to run a job using a laptop which you want to take it from home to work or vice versa. 
 
